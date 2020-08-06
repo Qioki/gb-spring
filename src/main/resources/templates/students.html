@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>GeekBrains - FORM</title>
+    </head>
+    <body>
+        <h1>Список студентов</h1>
+        <table>
+            <tr>
+                <th>NAME</th>
+                <th>PRICE</th>
+                <th>IN STOCK</th>
+            </tr>
+            <tr th:each="student : ${students}">
+                <td th:text="${student.id}">id</td>
+                <td th:text="${student.name}">name</td>
+                <td th:text="${student.score}">score</td>
+            </tr>
+        </table>
+    </body>
+</html>
