@@ -1,0 +1,26 @@
+spring.mvc.view:
+  suffix: '.jsp'
+  prefix: '/WEB-INF/view/'
+
+shop.properties:
+  products:
+    - product:
+      id: 1
+      title: 'Phone'
+      price: 100.0
+    - product:
+      id: 2
+      title: 'Phone2'
+      price: 200.0
+    - product:
+      id: 3
+      title: 'Phone3'
+      price: 300.0
+    - product:
+      id: 4
+      title: 'Phone4'
+      price: 120.0
+    - product:
+      id: 5
+      title: 'Phone5'
+      price: 320.0
